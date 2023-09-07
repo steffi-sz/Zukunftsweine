@@ -1,0 +1,16 @@
+ <style>
+      #osm-map { height: 520px; max-height: 85vh }
+      .w-container { max-width: 1500px }
+      .leaflet-popup-content-wrapper .leaflet-popup-content a { color: #000000; font-weight: bold; }
+      .leaflet-top, .leaflet-bottom { z-index: 10; }
+
+      @media only screen and ( max-width: 991px) {
+        #osm-map { height: 400px; max-height: 75vh }
+      }
+      @media only screen and (max-width: 767px ) and (orientation: landscape) {
+        #osm-map { height: 300px; max-height: 70vh }
+      }
+      @media only screen and (max-width: 479px) {
+        #osm-map { max-height: 50vh }
+      }
+    </style>
